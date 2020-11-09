@@ -13,7 +13,7 @@ var bg="sprites/bg.png";
 
 function preload() {
     backgroundImg = loadImage("sprites/bg.png");
-  
+   getTime()
 }
 
 function setup(){
@@ -69,7 +69,7 @@ function draw(){
 
     bird.display();
     platform.display();
-      getTime()
+     
     //log6.display();
     slingshot.display();    
 }
