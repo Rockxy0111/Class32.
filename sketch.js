@@ -13,7 +13,7 @@ var bg="sprites/bg.png";
 
 function preload() {
     backgroundImg = loadImage("sprites/bg.png");
-   getTime()
+    getTime()
 }
 
 function setup(){
